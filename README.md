@@ -1,5 +1,5 @@
 # Fraud Transaction Detection with Machine Learning
-**By Abhishek | April, 2026**
+**By Abhishek**
 
 ---
 
