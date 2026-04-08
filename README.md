@@ -123,8 +123,8 @@ All values < 5 — multicollinearity resolved.
 | Fraud (1) | **0.97** | 0.70 | **0.81** |
 
 `TP=1713 | FP=60 | TN=1906291 | FN=722`
-![Confusion Matrices](outputs/confusion_matrices.png)
-![ROC Curve](outputs/roc_curves.png)
+![Confusion Matrices](output/confusion_matrices.png)
+![ROC Curve](output/roc_curves.png)
 
 > 🎯 False positives dropped from **731 → 60** — a **91.8% reduction**. Wrongly blocking legitimate users is costly; this matters.
 
@@ -137,7 +137,7 @@ All values < 5 — multicollinearity resolved.
 | 3 | NormalizedAmount | ~0.13 |
 | 4 | TransactionPath | ~0.07 |
 | 5 | type | ~0.04 |
-![Feature Importance](outputs/feature_importance.png)
+![Feature Importance](output/feature_importance.png)
 Balance changes at origin and destination are the strongest fraud signals.
 
 ---
