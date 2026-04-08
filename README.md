@@ -68,7 +68,7 @@ Decision       Random Forest
 | Source | [Kaggle – ealaxi/paysim1](https://www.kaggle.com/datasets/ealaxi/paysim1) |
 
 > ⚠️ Severely imbalanced — standard accuracy is misleading. Precision & F1 are the key metrics.
-
+![Class Distribution](output/class_distribution.png)
 ---
 
 ## 🔧 Feature Engineering
